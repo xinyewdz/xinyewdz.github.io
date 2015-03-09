@@ -97,17 +97,5 @@
 <li><p>进行项目规划，编码和测试。</p></li>
 <li><p>找出系统瓶颈，进行项目优化。</p></li></ol></li>
 </ul>
-
-<div class="md-section-divider"></div>
-
-<h3 id="项目经验四" data-anchor-id="cnff">项目经验四</h3>
-
-<ul data-anchor-id="crf5">
-<li><p><strong>时间</strong>：2011 /12--2012 /3：OA系统</p></li>
-<li><p><strong>项目描述</strong>： 开发该系统使用的技术有S2SH和JQuery，通过定义业务接口实现了各层次的解耦，整个项目的接口都是由Spring负责管理其实现。通过抽取公共属性和方法，达到代码重用的目的，减少开发量。数据访问层使用Hibernate封装对数据的访问操作，由Spring的IOC组件为Hibernate注入sessionFactory实例并由Spring为dao接口注入实现类。业务层使用Spring的AOP管理事务和log，并负责为各接口注入实现类。表现层使用Struts的action作为控制器负责请求的转发，业务调用。使用jsp技术进行页面数据的显示和组织。使用JBPM框架进行工作流的流转。</p></li>
-<li><p><strong>责任描述</strong>： 参与两个模块：组织机构管理和论坛。  <br>
-（1）组织机构。主要包括组织机构的增删改查。对于该模块的采用粗粒度的权限控制，权限控制到页面的显示。  <br>
-（2）论坛。主要包括用户可以发帖，浏览帖子内容。管理员可以管理帖子，对用户进行管理。</p></li>
-</ul>
 </body>
 </html>
